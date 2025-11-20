@@ -1,16 +1,15 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Container from './components/Container/Container.jsx';
 
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Container />} />
-
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
