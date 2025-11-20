@@ -10,7 +10,6 @@ useEffect(() => {
         try {
             const response = await fetch("/productos.json");
             const data = await response.json();
-            console.log("DATA CARGADA:", data); // 👈 AGREGADO
             setItems(data);
         } catch (error) {
             console.error("Error fetching items:", error);
