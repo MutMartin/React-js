@@ -1,0 +1,16 @@
+.DivConntainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap  ;
+}
+.ejemplo{
+    margin: 2px;
+    padding: 2px;
+    height: 50vh;
+    width: 50vw;
+    font-size: large;
+    background-color: blueviolet;
+}

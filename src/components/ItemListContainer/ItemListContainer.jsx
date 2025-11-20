@@ -1,28 +1,30 @@
 import { useEffect, useState } from "react";
-import {ItemDetail} from "../ItemDetail/ItemDetail";
-import '/item-list-container.css';
-
+import { ItemDetail } from "../ItemDetail/ItemDetail.jsx";
+import './ItemListContainer.css';
 
 function ItemListContainer() {
     const [items, setItems] = useState([]);
-    useEffect(() => {
-        async() => {
-            try{
-            const response = await fetch("src/json/productos.json");
+
+useEffect(() => {
+    (async () => {
+        try {
+            const response = await fetch("/productos.json");
             const data = await response.json();
+            console.log("DATA CARGADA:", data); // 👈 AGREGADO
             setItems(data);
         } catch (error) {
             console.error("Error fetching items:", error);
         }
-    }
-    , []);  
+    })();
+}, []);
+
     return (
         <div className="ItemListContainer">
-            {
-                items.map((item) => (
-                    <ItemDetail key={item.id} item={item} />
-                ))
-            }
+            {items.map((item) => (
+                <ItemDetail key={item.id} item={item} />
+            ))}
         </div>
     );
 }
+
+export default ItemListContainer;

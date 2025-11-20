@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "nombre": "Pelota Chillona Loca",
     "descripcion": "Pelota de goma con sonido para perros hiperactivos.",
     "precio": 5.99,
@@ -7,6 +8,7 @@
     "imagen": "https://place-puppy.com/300x300?image=1"
   },
   {
+    "id": 2,
     "nombre": "Gorro de Unicornio Felino",
     "descripcion": "Sombrero colorido para gatos con cuerno de unicornio.",
     "precio": 7.5,
@@ -14,6 +16,7 @@
     "imagen": "https://placekitten.com/300/300?image=2"
   },
   {
+    "id": 3,
     "nombre": "Capa de Súper Perro",
     "descripcion": "Capa roja con logo de superhéroe para perros pequeños.",
     "precio": 9.99,
@@ -21,6 +24,7 @@
     "imagen": "https://place-puppy.com/300x300?image=3"
   },
   {
+    "id": 4,
     "nombre": "Moño de Gala para Mascotas",
     "descripcion": "Moño ajustable para perros y gatos, ideal para fotos.",
     "precio": 4.5,
@@ -28,6 +32,7 @@
     "imagen": "https://placekitten.com/300/300?image=4"
   },
   {
+    "id": 5,
     "nombre": "Cama Donut Suave",
     "descripcion": "Cama circular con bordes elevados y felpa antiestrés.",
     "precio": 19.99,
@@ -35,6 +40,7 @@
     "imagen": "https://place-puppy.com/300x300?image=5"
   },
   {
+    "id": 6,
     "nombre": "Chaleco Salvavidas Canino",
     "descripcion": "Chaleco flotante para perros con asa de seguridad.",
     "precio": 22.0,
@@ -42,6 +48,7 @@
     "imagen": "https://place-puppy.com/300x300?image=6"
   },
   {
+    "id": 7,
     "nombre": "Ratón de Cuerda Turbo",
     "descripcion": "Juguete con cuerda retráctil para gatos activos.",
     "precio": 6.25,
@@ -49,6 +56,7 @@
     "imagen": "https://placekitten.com/300/300?image=7"
   },
   {
+    "id": 8,
     "nombre": "Disfraz de Dinosaurio",
     "descripcion": "Traje verde con crestas para perros medianos.",
     "precio": 14.99,
@@ -56,6 +64,7 @@
     "imagen": "https://place-puppy.com/300x300?image=8"
   },
   {
+    "id": 9,
     "nombre": "Collar Luminoso LED",
     "descripcion": "Collar recargable con luces LED para paseos nocturnos.",
     "precio": 12.5,
@@ -63,6 +72,7 @@
     "imagen": "https://place-puppy.com/300x300?image=9"
   },
   {
+    "id": 10,
     "nombre": "Pelota Dispensadora de Snacks",
     "descripcion": "Pelota que libera golosinas al rodar.",
     "precio": 8.75,
@@ -70,6 +80,7 @@
     "imagen": "https://place-puppy.com/300x300?image=10"
   },
   {
+    "id": 11,
     "nombre": "Gafas Cool Dog",
     "descripcion": "Lentes protectores UV para perros fashion.",
     "precio": 11.0,
@@ -77,6 +88,7 @@
     "imagen": "https://place-puppy.com/300x300?image=11"
   },
   {
+    "id": 12,
     "nombre": "Túnel Plegable para Gatos",
     "descripcion": "Túnel de tela con cascabel para juegos y escondite.",
     "precio": 13.99,
@@ -84,6 +96,7 @@
     "imagen": "https://placekitten.com/300/300?image=12"
   },
   {
+    "id": 13,
     "nombre": "Bandana Tropical",
     "descripcion": "Bandana colorida con estampado veraniego.",
     "precio": 4.2,
@@ -91,6 +104,7 @@
     "imagen": "https://place-puppy.com/300x300?image=13"
   },
   {
+    "id": 14,
     "nombre": "Corbata Formal Felina",
     "descripcion": "Mini corbata elástica para gatos con estilo ejecutivo.",
     "precio": 5.0,
@@ -98,6 +112,7 @@
     "imagen": "https://placekitten.com/300/300?image=14"
   },
   {
+    "id": 15,
     "nombre": "Zapatos Antideslizantes",
     "descripcion": "Par de botas suaves para proteger patas en exteriores.",
     "precio": 16.99,
@@ -105,6 +120,7 @@
     "imagen": "https://place-puppy.com/300x300?image=15"
   },
   {
+    "id": 16,
     "nombre": "Cuerda Mordedora Multicolor",
     "descripcion": "Juguete resistente de algodón trenzado.",
     "precio": 6.8,
@@ -112,6 +128,7 @@
     "imagen": "https://place-puppy.com/300x300?image=16"
   },
   {
+    "id": 17,
     "nombre": "Sombrero de Cumpleaños Pet",
     "descripcion": "Sombrerito con elástico y pompón para celebrar.",
     "precio": 3.99,
@@ -119,6 +136,7 @@
     "imagen": "https://placekitten.com/300/300?image=17"
   },
   {
+    "id": 18,
     "nombre": "Disco Volador Suave",
     "descripcion": "Frisbee flexible y liviano para juegos al aire libre.",
     "precio": 7.2,
@@ -126,6 +144,7 @@
     "imagen": "https://place-puppy.com/300x300?image=18"
   },
   {
+    "id": 19,
     "nombre": "Camita Portátil de Viaje",
     "descripcion": "Cama plegable ideal para autos o viajes.",
     "precio": 17.5,
@@ -133,6 +152,7 @@
     "imagen": "https://place-puppy.com/300x300?image=19"
   },
   {
+    "id": 20,
     "nombre": "Chaleco Refrigerante",
     "descripcion": "Chaleco que mantiene fresco al perro en días calurosos.",
     "precio": 18.9,
@@ -140,6 +160,7 @@
     "imagen": "https://place-puppy.com/300x300?image=20"
   },
   {
+    "id": 21,
     "nombre": "Pañuelo Navideño",
     "descripcion": "Accesorio con estampado festivo para la temporada.",
     "precio": 5.25,
@@ -147,6 +168,7 @@
     "imagen": "https://place-puppy.com/300x300?image=21"
   },
   {
+    "id": 22,
     "nombre": "Guante Removedor de Pelos",
     "descripcion": "Guante con superficie de silicona para cepillado fácil.",
     "precio": 9.5,
@@ -154,6 +176,7 @@
     "imagen": "https://place-puppy.com/300x300?image=22"
   },
   {
+    "id": 23,
     "nombre": "Cinturón de Seguridad para Auto",
     "descripcion": "Correa ajustable para asegurar a tu mascota en el coche.",
     "precio": 10.99,
@@ -161,6 +184,7 @@
     "imagen": "https://place-puppy.com/300x300?image=23"
   },
   {
+    "id": 24,
     "nombre": "Botella Portátil de Agua",
     "descripcion": "Botella con bebedero integrado para paseos largos.",
     "precio": 8.0,
@@ -168,6 +192,7 @@
     "imagen": "https://place-puppy.com/300x300?image=24"
   },
   {
+    "id": 25,
     "nombre": "Casa de Tela Plegable",
     "descripcion": "Casita portátil para gatos o perros pequeños.",
     "precio": 21.0,
@@ -175,6 +200,7 @@
     "imagen": "https://place-puppy.com/300x300?image=25"
   },
   {
+    "id": 26,
     "nombre": "Peluche con Sonido de Animal",
     "descripcion": "Juguete de felpa con chillido interno.",
     "precio": 6.5,
@@ -182,6 +208,7 @@
     "imagen": "https://place-puppy.com/300x300?image=26"
   },
   {
+    "id": 27,
     "nombre": "Arnés con Estampado Divertido",
     "descripcion": "Arnés ajustable con diseño de caricaturas.",
     "precio": 13.0,
@@ -189,6 +216,7 @@
     "imagen": "https://place-puppy.com/300x300?image=27"
   },
   {
+    "id": 28,
     "nombre": "Cepillo 2 en 1",
     "descripcion": "Cepillo doble para desenredar y dar brillo.",
     "precio": 7.9,
@@ -196,6 +224,7 @@
     "imagen": "https://place-puppy.com/300x300?image=28"
   },
   {
+    "id": 29,
     "nombre": "Toalla de Microfibra Ultra Absorbente",
     "descripcion": "Toalla especial para secar rápido después del baño.",
     "precio": 9.75,
@@ -203,6 +232,7 @@
     "imagen": "https://place-puppy.com/300x300?image=29"
   },
   {
+    "id": 30,
     "nombre": "Collar con Placa Personalizable",
     "descripcion": "Collar con plaquita para grabar el nombre del dueño o mascota.",
     "precio": 10.0,

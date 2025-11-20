@@ -1,12 +1,15 @@
-function navbar() {
+import './NavBar.css';
+
+function NavBar() {
   return (
-    <nav>
-      <ul>
-        <li><a href="#home">Inicio</a></li>
-        <li><a href="#services">Servicios</a></li>
-        <li><a href="#contact">Contacto</a></li>
-      </ul>
-    </nav>
+
+      <nav className="barra">
+        <ul>
+          <li>Inicio</li>
+          <li>Servicios</li>
+          <li>Contacto</li>
+        </ul>
+      </nav>
   );
 }
-export default navbar;
+export default NavBar;
