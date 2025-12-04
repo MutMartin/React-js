@@ -2,42 +2,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 /* ===== NAVBAR ===== */
 .barra {
   width: 100%;
   background: #242424;
-  padding: 12px 20px;
+  padding: 12px 20px;;
   display: flex;
   justify-content: space-between;
+
   align-items: center;
-}
+  transition: background 0.3s ease;
+  position: sticky;
+  top: 0;}
 
 
 .logo {
   color: white;
   font-size: 1.4rem;
   font-weight: bold;
-}
-
-.barra ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.barra ul li {
-  color: #ffffffcc;
-  text-decoration: none;
-  font-size: 1rem;
-  padding: 8px 12px;
-  border-radius: 6px;
-  transition: 0.3s ease;
-}
-
-
-.barra ul li a:hover {
-  background: #ffffff22;
-  color: #fff;
 }

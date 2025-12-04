@@ -4,3 +4,16 @@
   gap: 20px;
   padding: 20px;
 }
+.Filtro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+.Filtro input{ 
+  margin-bottom: 20px;
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

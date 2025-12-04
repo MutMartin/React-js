@@ -1,0 +1,142 @@
+:root{
+    --card-bg: #ffffff;
+    --page-bg: #f4f7fb;
+    --accent: #2563eb;
+    --accent-dark: #1e4bb8;
+    --muted: #6b7280;
+    --shadow: 0 6px 18px rgba(32,33,36,0.08);
+    --radius: 12px;
+    --gap: 14px;
+}
+
+/* Container card */
+.contacto-card{
+    background: var(--card-bg);
+    color: #0f172a;
+    width: 100%;
+    margin: 28px auto;
+    padding: 28px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+/* Page background helper if needed */
+.contacto-wrapper{
+    min-height: 100vh;
+    padding: 32px;
+    background: var(--page-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Title */
+.contacto-card h2{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #0b1220;
+    letter-spacing: -0.2px;
+}
+
+/* Form layout */
+.contacto-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--gap);
+}
+
+/* Make form single column on small screens */
+@media (max-width: 600px){
+    .contacto-form{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Inputs and textarea */
+.contacto-card input[type="text"],
+.contacto-card input[type="email"],
+.contacto-card input[type="tel"],
+.contacto-card textarea,
+.contacto-card select{
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #e6e9ef;
+    border-radius: 8px;
+    background: #fff;
+    font-size: 0.95rem;
+    color: #0b1220;
+    box-sizing: border-box;
+    transition: border-color 160ms ease, box-shadow 160ms ease, transform 100ms ease;
+    resize: vertical;
+    min-height: 40px;
+}
+
+/* textarea specific */
+.contacto-card textarea{
+    min-height: 110px;
+    line-height: 1.4;
+    grid-column: 1 / -1;
+}
+
+/* Input focus */
+.contacto-card input:focus,
+.contacto-card textarea:focus,
+.contacto-card select:focus{
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 6px 20px rgba(37,99,235,0.08);
+}
+
+/* Button */
+.contacto-card .contacto-button{
+    appearance: none;
+    -webkit-appearance: none;
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(180deg,var(--accent),var(--accent-dark));
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.98rem;
+    transition: transform 140ms ease, box-shadow 140ms ease, opacity 120ms ease;
+    box-shadow: 0 8px 20px rgba(37,99,235,0.12);
+}
+
+/* Button container to align */
+.contacto-card .actions{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    grid-column: 1 / -1;
+}
+
+/* Button hover/focus */
+.contacto-card .contacto-button:hover{
+    transform: translateY(-2px);
+}
+.contacto-card .contacto-button:active{
+    transform: translateY(0);
+}
+.contacto-card .contacto-button:focus{
+    outline: 3px solid rgba(37,99,235,0.16);
+    outline-offset: 2px;
+}
+
+/* Muted/help text */
+.contacto-card .help{
+    color: var(--muted);
+    font-size: 0.875rem;
+}
+
+/* Small visual tweak for inputs placed in single column */
+.contacto-card .full-width{
+    grid-column: 1 / -1;
+}

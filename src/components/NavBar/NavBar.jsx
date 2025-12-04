@@ -1,14 +1,13 @@
+import { Link } from 'react-router-dom';
 import './NavBar.css';
 
 function NavBar() {
   return (
 
       <nav className="barra">
-        <ul>
-          <li>Inicio</li>
-          <li>Servicios</li>
-          <li>Contacto</li>
-        </ul>
+        <Link to="/">Incio</Link>
+        <Link to="/about">Acerca de</Link>
+        <Link to="/contacto">Contacto</Link>
       </nav>
   );
 }
